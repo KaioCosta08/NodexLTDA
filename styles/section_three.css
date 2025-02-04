@@ -1,0 +1,23 @@
+#section_three {
+    margin-top: 91px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+#box_esquerdo_secThree span{
+    color: #662684;
+}
+
+#title_secThree {
+    font-size: 1.3125rem;
+    color: #000;
+
+}
+
+#box_direta_secThree img{
+    width: 311px;
+    height: 277px;
+    box-shadow: 0 0 3px 2px purple;
+}
