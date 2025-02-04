@@ -1,0 +1,36 @@
+/* Tipos de letras */
+/* "Jockey One", serif; */
+/* "Poppins", serif; */
+
+#section_two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+}
+
+.linhaSeparação {
+    width: 1px;
+    height: 145px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.box_secTwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box_secTwo h1 {
+    color: #000;
+    font-size: 1.8rem;
+    font-family: "Jockey One", serif;;
+}
+
+.box_secTwo span {
+    color: #662684;
+}
+
