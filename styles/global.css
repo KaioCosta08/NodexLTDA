@@ -1,2 +1,19 @@
+@import url(header.css);
+@import url(main.css);  
 @import url('section_two.css');
 @import url('section_three.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1580px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}
