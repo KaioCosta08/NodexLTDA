@@ -3,6 +3,11 @@
     margin-top: 96px;
 }
 
+#title_secFour {
+    margin-left: 23%;
+    font-size: 22px;
+}
+
 #carrossel_container {
     display: flex;
     align-items: center;
