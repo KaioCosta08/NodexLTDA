@@ -30,7 +30,11 @@
     font-family: "Jockey One", serif;;
 }
 
-.box_secTwo span {
+
+.span_secTwo {
     color: #662684;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 

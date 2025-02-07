@@ -68,7 +68,8 @@
     <section id="section_two">
         <div class="box_secTwo">
             <h1>Nossa Missão</h1>
-            <span>
+            <br>
+            <span class="span_secTwo">
                 Capacitar empresas e empreendedores com soluções <br>
                 tecnológicas inteligentes,impulsionando a inovação <br>
                 e a  transformação digital.
@@ -77,7 +78,8 @@
         <div class="linhaSeparação"></div>
         <div class="box_secTwo">
             <h1>Nossa Visão</h1>
-            <span>
+            <br>
+            <span class="span_secTwo">
                 Ser referência global em desenvolvimento de software, <br> 
                 oferecendo produtos e serviços que impactam positivamente <br> 
                 negócios e usuários.
@@ -88,6 +90,7 @@
     <section id="section_three">
         <div id="box_esquerdo_secThree">
             <div id="title_secThree"><h1>Sobre a Nodex</h1></div>
+            <br>
             <span>
                 A Nodex é uma empresa inovadora no setor de tecnologia e progra- <br>
                 mação, especializada no desenvolvimento  de soluções digitais <br>
@@ -105,5 +108,118 @@
             <img src="../image/ImageNodex (1).png" alt="nodex">
         </div>
     </section>
+    <br>
+    <section id="section_four">
+        <div id="carrossel_container">
+            <div class="carrossel_item" data-modal="jsBoxModalEquipe">
+                <img src="../image/Ruan.png" alt="ruan">
+                <br>
+                <h1>Ruan Patrick </h1>
+                <br>
+                <button class="buttonEquipe" data-modal="abrirRuan">More</button>  <!--Button Ruan-->
+            </div>
+            
+            <div class="carrossel_item" data-modal="jsBoxModalEquipe">
+                <img src="../image/Kaio.png" alt="ruan">
+                <br>
+                <h1>Kaio Oliveira Costa</h1>
+                <br>
+                <button class="buttonEquipe" data-modal="abrirKaio">More</button> <!--Button Kaio-->
+            </div>
+            <div class="carrossel_item" data-modal="jsBoxModalEquipe">
+                <img src="../image/Saulo.png" alt="saulo">
+                <br>
+                <h1>Saulo Mendes</h1>
+                <br>
+                <button class="buttonEquipe" data-modal="abrirSaulo">More</button>
+            </div>
+            <div class="carrossel_item" data-modal="jsBoxModalEquipe">
+                <img src="../image/William.png" alt="ruan">
+                <br>
+                <h1>Willyam</h1>
+                <br>
+                <button class="buttonEquipe" data-modal="abrirWillyam">More</button>
+            </div>
+        </div>
+
+        <!-- Modal Ruan -->
+    <div class="modalDoRuan" data-modal="ruanModal">
+        <button class="btn_fechar_modal" data-modal="fecharRuan"> X </button>
+        <div class="container_itens">
+            <div id="imageModalRuan">
+                <img src="../image/Ruan.png" alt="ruanfidapeste">
+            </div> 
+            <br>
+            <br>
+            <div class="descricao">
+                <h2>Nome Completo: Ruan Patrick de Sousa</h2>
+                <br>
+                <h2>Idade: 21 anos</h2>
+                <br>
+                <h2>Área: Full-Stack e Desenvolvimento de Aplicativo</h2>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal Kaio -->
+    <div class="modalDoKaio" data-modal="kaioModal">
+        <button class="btn_fechar_modalKaio" data-modal="fecharKaio">X</button>
+        <div class="container_itens">
+            <div id="imageModalKaio">
+                <img src="../image/Kaio.png" alt="kaiozin">
+            </div>
+            <br>
+            <br>
+            <div class="descricao">
+                <h2>Nome Completo: Kaio Oliveira Costa</h2>
+                <br>
+                <h2>Idade: 16 anos</h2>
+                <br>
+                <h2>Área: Full-Stack</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Saulo -->
+    <div class="modalDoSaulo" data-modal="sauloModal">
+        <button class="btn_fechar_modalSaulo" data-modal="fecharSaulo">X</button>
+        <div class="container_itens">
+            <div id="imageModalSaulo">
+                <img src="../image/Saulo.png" alt="saulo">
+            </div>
+            <br>
+            <br>
+            <div class="descricao">
+                <h2>Nome Completo: Saulo Mendes Sousa</h2>
+                <br>
+                <h2>Idade: 17 anos</h2>
+                <br>
+                <h2>Área: Full-Stack e desenvolvimento de aplicativos</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Willyam -->
+    <div class="modalDoWillyam" data-modal="willyamModal">
+        <button class="btn_fechar_modalWillyam" data-modal="fecharWillyam">X</button>
+        <div class="container_itens">
+            <div id="imageModalWillyam">
+                <img src="../image/William.png" alt="Willyam">
+            </div>
+            <br>
+            <br>
+            <div class="descricao">
+                <h2>Nome Completo: Willyam da Costa Marques</h2>
+                <br>
+                <h2>Idade: 20 anos</h2>
+                <br>
+                <h2>Área: Full-Stack</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Iniciando o JavaScript -->
+     <script src="../script.js"></script>
 </body>
 </html>

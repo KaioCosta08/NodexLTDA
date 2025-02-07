@@ -19,5 +19,5 @@
 #box_direta_secThree img{
     width: 311px;
     height: 277px;
-    box-shadow: 0 0 3px 2px purple;
+    border-radius: 12px;
 }
